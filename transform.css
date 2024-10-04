@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(172, 235, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 140px;
+}
+
+.div2 {
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.section2 {
+    position: absolute;
+    top: 500px;
+}
+
+
+.box { 
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: rgba(250, 104, 104, 0.795);
+    transition: all linear 0.25s;
+    
+}
+
+div .first:hover {
+    transform: rotate(45deg); 
+    transform-origin: center; 
+}
+
+div .second:hover {
+    transform: rotateX(45deg);
+}
+
+div .third:hover {
+    transform: rotateY(45deg);
+}
+
+div .fourth:hover {
+    transform: scale(2);
+}
+
+div .fifth:hover {
+    transform: scaleX(2);
+}
+
+div .sixth:hover {
+    transform: scaleY(2)
+}
+
+div .seventh:hover {
+    transform: skewX(45deg)
+}
+
+div .eighth:hover {
+    transform: skewY(45deg);
+}
+
+div .ninth:hover {
+    transform: translate(40px, 40px);
+}
+
+div .tenth:hover {
+    transform: translateX(50px);
+}
+
+div .eleventh:hover {
+    transform: translateY(50px);
+}
+
+div .twelfth:hover {
+    transform: skewY(40deg) scale(1.5);
+    transform-origin: left;
+    z-index: 99;
+}
+
+div .thirteenth:hover {
+    transform: perspective(150px) rotateY(40deg);
+}
+
+div .fourteenth:hover {
+    transform:perspective(150px) rotateX(40deg) ;
+}
+
+div .fifteenth:hover {
+    transform: rotate(40deg);
+    transform-origin: right top;
+}
+
+div .sixteenth:hover {
+    transform: rotate(40deg);
+    transform-origin: bottom left;
+}
+
+div .seventeenth:hover {
+    transform: perspective(350px) rotateX(45deg);
+    transform-origin: bottom;
+}
+
+div .eighteenth:hover {
+    transform: perspective(350px) rotateX(50deg);
+    transform-origin: top;
+}
+
+div .ninteenth:hover {
+    transform: perspective(350px) rotateY(45deg);
+    transform-origin: left;
+}
+
+div .twentieth:hover {
+    transform: scaleX(2);
+    transform-origin: left;
+}
+
+div .tfirst:hover {
+    transform: scaleX(2);
+    transform-origin: right;
+}
+
+div .tsecond:hover {
+    transform: scale(2);
+    transform-origin: bottom left;
+}
+
+div .tthird:hover {
+    transform: scale(2);
+    transform-origin: top right;
+}
+
+div .tfourth:hover {
+    transform: perspective(350px) rotateY(50deg);
+    transform-origin: right;
+}
+
+div .tfifth:hover {
+    transform: scaleY(2);
+    transform-origin: top;
+}
+
+div .tsixth:hover {
+    transform: scaleY(2);
+    transform-origin: bottom;
+}
